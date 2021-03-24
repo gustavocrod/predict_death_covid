@@ -13,3 +13,12 @@ Os dados para a análise, no presente projeto, vêm do [Painel Corona Vírus RS]
 O e-SUS Notifica (que antes era chamado de e-SUS VE) é a ferramenta na qual são notificados os casos de síndrome gripal (SG) que não precisam de internação hospitalar. Casos de SG atendidos em Unidades Sentinelas são notificados no SIVEP-Gripe (Síndrome Gripal). Nos casos em que a pessoa apresenta quadro mais grave da infecção (Síndrome Respiratória Aguda Grave – SRAG) e é necessária a hospitalização, a notificação é feita no SIVEP-Gripe (SRAG Hospitalizado)..
 
 Ambos os sistemas são utilizados pelos serviços de saúde públicos e privados e pelas secretarias municipais de saúde para realização das notificações e monitoramento dos casos e seus contactantes (sintomas, exames realizados, resultados, evolução, entre outros).
+
+## Divisão dos notebooks
+
+Para melhor entendimento e condução do estudo, os processos foram divididos em 4 Notebooks:
+
+ - 1: Análise exploratória
+ - 2: Limpeza de dados
+ - 3: Pre-processamento dos dados
+ - 4: Análise preditiva
