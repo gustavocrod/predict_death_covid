@@ -18,7 +18,7 @@ Ambos os sistemas são utilizados pelos serviços de saúde públicos e privados
 
 Para melhor entendimento e condução do estudo, os processos foram divididos em 4 Notebooks:
 
- - 1: Análise exploratória
- - 2: Limpeza de dados
- - 3: Pre-processamento dos dados
- - 4: Análise preditiva
+ - [1: Análise exploratória](https://github.com/gustavocrod/predict_death_covid/blob/main/1analise_exploratoria.ipynb)
+ - [2: Limpeza de dados](https://github.com/gustavocrod/predict_death_covid/blob/main/2limpeza_de_dados.ipynb)
+ - [3: Pre-processamento dos dados](https://github.com/gustavocrod/predict_death_covid/blob/main/3pre_processamento.ipynb)
+ - [4: Análise preditiva](https://github.com/gustavocrod/predict_death_covid/blob/main/4predicao.ipynb)
