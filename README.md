@@ -2,8 +2,8 @@ Neste projeto de *machine learning* utilizaremos uma abordagem "5-step", compred
 
  - I. Definir o Problema
  - II. Preparar os dados
- - III. Teste e avaliação de modelos
- - IV. Melhorar os resultados (spot-check)
+ - III. Testar e avaliar de modelos
+ - IV. Melhorar os resultados
  - V. Apresentar os resultados
  
  ---
