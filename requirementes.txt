@@ -1,3 +1,5 @@
+seaborn
+pandas
 unidecode
 texthero
 gensim
