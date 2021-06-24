@@ -1,9 +1,9 @@
-Neste projeto de *machine learning* utilizaremos uma abordagem "5-step", compredida por:
+Neste projeto de *machine learning* utilizamos uma abordagem "5-step", compredida por:
 
  - I. Definir o Problema
- - II. Preparar os dados
- - III. Testar e avaliar de modelos
- - IV. Melhorar os resultados
+ - [II. Preparar os dados](https://github.com/gustavocrod/predict_death_covid/blob/main/2_data_preparation.ipynb)
+ - [III. Testar e avaliar de modelos](https://github.com/gustavocrod/predict_death_covid/blob/main/3_spotcheck_algorithms.ipynb)
+ - [IV. Melhorar os resultados](https://github.com/gustavocrod/predict_death_covid/blob/main/4_improving_results.ipynb)
  - V. Apresentar os resultados
  
  ---
