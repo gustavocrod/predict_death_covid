@@ -1,0 +1,7 @@
+unidecode
+texthero
+gensim
+graphviz==0.16
+xgboost==1.4.2
+scikit-plot
+imblearn
