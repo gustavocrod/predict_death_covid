@@ -66,7 +66,7 @@ def plot_horizontal_bar(df, column, xlabel, title, fix_distance=100, hide_ylabel
     # tamanho dos e yticks labels
     ax.tick_params(axis='both', which='major', labelsize=fontsize - 2)
     
-def plot_feature_importances(df, column):
+def plot_feature_importances(df, column, top=False):
     """
 
     :param df: df
@@ -82,6 +82,9 @@ def plot_feature_importances(df, column):
     importance = rf.feature_importances_
     importance = pd.DataFrame(importance, index=df.drop(column, axis=1).columns, columns=["Importância"])
     importance = importance.sort_values(by='Importância', ascending=True)
+    if top:
+        importance = importance.tail()
+    
     fig_dims = (12, 8)
     fig, ax = plt.subplots(figsize=fig_dims)
     
@@ -116,7 +119,7 @@ def show_values_on_bars(axs, fix_distance, fontsize):
         _show_on_single_plot(axs)
 
 
-def plot_vertical_bar(df, column, ylabel, title, fix_distance, hue=None, hide_xlabel=True, fontsize=14):
+def plot_vertical_bar(df, column, ylabel, title, fix_distance, hue=None, hide_xlabel=True, fontsize=14, ticklabels=None):
     """
      plota um coutplot vertical com valores anotados
     :param df: dataframe
@@ -143,6 +146,9 @@ def plot_vertical_bar(df, column, ylabel, title, fix_distance, hue=None, hide_xl
     #ax.annotate('*Valores do estado do RS', xy=(100, 650), xycoords='figure pixels')
 
     ax.tick_params(axis='both', which='major', labelsize=fontsize - 2)
+
+    if ticklabels:
+        ax.set_xticklabels(ticklabels)
 
 
 def print_df_dimensions(df):
